@@ -24,23 +24,25 @@ Site profissional, moderno, bonito e acolhedor para empresa de lanches escolares
 - Formulário de contato que abre o WhatsApp da Juliana (5517996124607) com dados preenchidos (verificado via teste automatizado).
 - Contatos reais: WhatsApp Juliana (17) 99612-4607, Breno (17) 99635-9706, Instagram @zavanellasanchescolar, e-mail zavanellasgourmet@gmail.com, nutricionista Larissa de Oliveira Romera (CRN 37.484).
 - Logo oficial aplicada no navbar e rodapé (/app/frontend/public/logo.png, recorte circular com fundo transparente a partir da imagem enviada pelo cliente).
-- Seção "Escolas que já atendemos" (id #escolas) com 9 escolas reais: Quintal Mágico, Luminus Delphos, Criarte, Integração, Vem Ser, Passinho Livre, Objetivo, Ressurreição, Anglo Start + selo "E muitas outras escolas!" e botão "Quero a Zavanellas na minha escola" (leva ao formulário). Lista editável em `src/data/menu.js` (constante SCHOOLS, com instruções em PT-BR para acrescentar novas escolas).
+- Seção "Onde atendemos" (id #escolas): sem lista nominal — informa que atendem todas as escolas particulares de Rio Preto, com CTA para o formulário. (Pedido do cliente: remover a lista de escolas.)
 - Verificado: screenshots desktop + mobile de todas as seções; interações do cardápio; envio do formulário gera link wa.me correto.
-- Fotos da própria marca aplicadas (recortadas dos cartazes enviados): Hero usa a foto da menina com o kit; "Como Funciona" usa as imagens de suco, frutas e sanduíche do flyer "Somos a Zavanellas" (arquivos em /app/frontend/public/fotos/).
-- Galeria "De pertinho: nossos kits e lanches" (id #galeria) com 5 fotos reais enviadas pelo cliente (kits do dia, bolinhos coração/estrela, kit com etiqueta Zavanellas, mini bolinhos), em grade bento responsiva. Fotos em /app/frontend/public/fotos/ (kit-1, kit-2, kit-3, bolinhos, donuts).
-- Seção "Para os Pais" agora usa foto real do kit com etiqueta Zavanellas (kit-3.jpg) — site 100% sem banco de imagens.
+- Fotos da própria marca aplicadas (recortadas dos cartazes enviados): Hero usa a foto da menina com o kit (arquivos em /app/frontend/public/fotos/).
+- Cards do "Como Funciona" usam recortes das fotos reais enviadas pelo cliente: suco-real.jpg (garrafa do kit), frutas-real.jpg (potinho de frutas), lanche-real.jpg (bolinhos coração/estrela).
+- Galeria "De pertinho: nossos kits e lanches" (id #galeria) com 5 fotos reais (kit-1, kit-2, kit-3, bolinhos, donuts) + 2 vídeos reais (/public/videos/video-1.mp4 e video-2.mp4, autoplay mudo em loop com controles).
+- Seção "Para os Pais" usa foto real do kit com etiqueta Zavanellas (kit-3.jpg) — site 100% sem banco de imagens.
+- Nota de verificação: vídeos em H.264 (avc1); o navegador de teste (Chromium sem codec proprietário) não reproduz, mas os arquivos são servidos corretamente (HTTP 200, video/mp4) e tocam em navegadores comuns (Chrome/Safari/Edge).
 
 ## Pendente
 - Nenhum item visual pendente; futuras fotos reais podem ser adicionadas à galeria salvando em /public/fotos/ e editando a lista PHOTOS em src/components/GallerySection.jsx.
 
 ## Backlog priorizado
 - P0: nenhum pendente (site funcional).
-- P1: substituir imagens de banco de imagens por fotos reais dos kits/lanches da Zavanellas (aguardando envio das fotos pelo cliente).
+- P1: mais fotos/vídeos reais para a galeria (cliente envia quando quiser).
 - P2: painel administrativo para editar cardápio sem mexer no código.
 - P2: seção de planos/preços.
 - P2: FAQ e depoimentos de pais.
 
 ## Próximas tarefas
-- Receber fotos reais do cliente e aplicar nas seções Hero, Como Funciona e Para os Pais.
 - Definir preços/planos para publicar.
-- Edição de cardápio: hoje via `src/data/menu.js`; escolas via `src/components/SchoolsSection.jsx`.
+- Depoimentos reais de pais.
+- Edição de cardápio: hoje via `src/data/menu.js`.

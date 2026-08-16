@@ -8,8 +8,8 @@ const ITEMS = [
     text: "Suco natural preparado para acompanhar o lanche. Não utilizamos polpa nem suco de caixinha.",
     color: "#F97316",
     bg: "#FFF1E4",
-    img: "/fotos/suco.jpg",
-    alt: "Garrafinha de suco natural de laranja",
+    img: "/fotos/suco-real.jpg",
+    alt: "Garrafinha de suco natural do kit Zavanellas Kids",
   },
   {
     icon: Apple,
@@ -17,8 +17,8 @@ const ITEMS = [
     text: "Uma porção de frutas para complementar a alimentação de forma saudável e saborosa.",
     color: "#F43F5E",
     bg: "#FFE9ED",
-    img: "/fotos/frutas.jpg",
-    alt: "Tigela com frutas frescas e coloridas",
+    img: "/fotos/frutas-real.jpg",
+    alt: "Potinho com frutas frescas picadas do kit Zavanellas Kids",
   },
   {
     icon: Croissant,
@@ -26,8 +26,8 @@ const ITEMS = [
     text: "Um lanche variado, escolhido de acordo com nosso cardápio, sempre buscando equilíbrio e qualidade.",
     color: "#A855F7",
     bg: "#F4EAFE",
-    img: "/fotos/lanche.jpg",
-    alt: "Sanduíche saudável do lanche do dia",
+    img: "/fotos/lanche-real.jpg",
+    alt: "Bolinhos assados em formato de coração e estrela",
   },
 ];
 
