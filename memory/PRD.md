@@ -29,7 +29,7 @@ Site profissional, moderno, bonito e acolhedor para empresa de lanches escolares
 - Fotos da própria marca aplicadas (recortadas dos cartazes enviados): Hero usa a foto da menina com o kit (arquivos em /app/frontend/public/fotos/).
 - Cards do "Como Funciona" usam recortes das fotos reais enviadas pelo cliente: suco-real.jpg (garrafa do kit), frutas-real.jpg (potinho de frutas), lanche-real.jpg (bolinhos coração/estrela).
 - Galeria "De pertinho: nossos kits e lanches" (id #galeria) com 5 fotos reais (kit-1, kit-2, kit-3, bolinhos, donuts) + 2 vídeos reais (/public/videos/video-1.mp4 e video-2.mp4, autoplay mudo em loop com controles).
-- Seção "Para os Pais" usa foto real do kit com etiqueta Zavanellas (kit-3.jpg) — site 100% sem banco de imagens.
+- Seção "Para os Pais" usa VÍDEO real enviado pelo cliente (/public/videos/video-3.mp4, autoplay mudo em loop) com poster /fotos/kit-3.jpg como capa.
 - Nota de verificação: vídeos em H.264 (avc1); o navegador de teste (Chromium sem codec proprietário) não reproduz, mas os arquivos são servidos corretamente (HTTP 200, video/mp4) e tocam em navegadores comuns (Chrome/Safari/Edge).
 
 ## Pendente

@@ -9,8 +9,6 @@ const BENEFITS = [
   { icon: Coffee, text: "Você não precisa se preocupar em preparar o lanche todos os dias", color: "#22C55E" },
 ];
 
-const IMG = "/fotos/kit-3.jpg";
-
 export const ForParents = () => (
   <section id="para-os-pais" data-testid="parents-section" className="py-24 lg:py-32 bg-white relative overflow-hidden">
     <div className="absolute top-10 -right-28 w-96 h-96 rounded-full bg-[#FBBF24]/10 blur-3xl" />
@@ -18,10 +16,14 @@ export const ForParents = () => (
       <Reveal className="order-2 lg:order-1">
         <div className="relative">
           <div className="absolute -bottom-5 -right-5 w-full h-full rounded-[2.5rem] bg-[#14B8A6]/15 rotate-2" />
-          <img
-            data-testid="parents-image"
-            src={IMG}
-            alt="Kit Zavanellas Kids com bolo, suco natural e frutas"
+          <video
+            data-testid="parents-video"
+            src="/videos/video-3.mp4"
+            poster="/fotos/kit-3.jpg"
+            autoPlay
+            muted
+            loop
+            playsInline
             className="relative rounded-[2.5rem] object-cover w-full h-[420px] lg:h-[500px] shadow-2xl shadow-slate-900/10"
           />
           <div className="absolute top-6 -left-2 sm:left-6 bg-white rounded-3xl shadow-xl shadow-slate-900/10 px-5 py-3.5 flex items-center gap-3 rotate-[-2deg]">
