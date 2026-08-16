@@ -7,6 +7,7 @@ import { HealthySection } from "@/components/HealthySection";
 import { MenuSection } from "@/components/MenuSection";
 import { ZeroMenuSection } from "@/components/ZeroMenuSection";
 import { ForParents } from "@/components/ForParents";
+import { SchoolsSection } from "@/components/SchoolsSection";
 import { DeliverySection } from "@/components/DeliverySection";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
@@ -22,6 +23,7 @@ function App() {
         <MenuSection />
         <ZeroMenuSection />
         <ForParents />
+        <SchoolsSection />
         <DeliverySection />
         <ContactSection />
       </main>

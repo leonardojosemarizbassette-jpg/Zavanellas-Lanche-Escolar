@@ -23,17 +23,21 @@ Site profissional, moderno, bonito e acolhedor para empresa de lanches escolares
 - Cardápio real transcrito dos materiais enviados (5 semanas, Tradicional + Zero Açúcar) com abas e seletor de semana colorido por semana.
 - Formulário de contato que abre o WhatsApp da Juliana (5517996124607) com dados preenchidos (verificado via teste automatizado).
 - Contatos reais: WhatsApp Juliana (17) 99612-4607, Breno (17) 99635-9706, Instagram @zavanellasanchescolar, e-mail zavanellasgourmet@gmail.com, nutricionista Larissa de Oliveira Romera (CRN 37.484).
-- Verificado: screenshots desktop + mobile de todas as seções; interações do cardápio (abas/semanas); envio do formulário gera link wa.me correto.
+- Logo oficial aplicada no navbar e rodapé (/app/frontend/public/logo.png, recorte circular com fundo transparente a partir da imagem enviada pelo cliente).
+- Seção "Escolas que já atendemos" (id #escolas) com 9 escolas reais: Quintal Mágico, Luminus Delphos, Criarte, Integração, Vem Ser, Passinho Livre, Objetivo, Ressurreição, Anglo Start + selo "E muitas outras escolas!". Lista editável em src/components/SchoolsSection.jsx.
+- Verificado: screenshots desktop + mobile de todas as seções; interações do cardápio; envio do formulário gera link wa.me correto.
+
+## Pendente
+- Fotos reais dos kits/sucos/lanches: aguardando o cliente enviar as fotos para substituir as de banco de imagens.
 
 ## Backlog priorizado
 - P0: nenhum pendente (site funcional).
-- P1: substituir imagens de banco de imagens por fotos reais dos kits/lanches da Zavanellas.
-- P1: adicionar logo oficial (arquivo de imagem) no lugar do monograma "Z".
+- P1: substituir imagens de banco de imagens por fotos reais dos kits/lanches da Zavanellas (aguardando envio das fotos pelo cliente).
 - P2: painel administrativo para editar cardápio sem mexer no código.
-- P2: seção de planos/preços e lista de escolas atendidas.
+- P2: seção de planos/preços.
 - P2: FAQ e depoimentos de pais.
 
 ## Próximas tarefas
-- Receber fotos reais e logo do cliente.
+- Receber fotos reais do cliente e aplicar nas seções Hero, Como Funciona e Para os Pais.
 - Definir preços/planos para publicar.
-- Edição de cardápio: hoje via `src/data/menu.js`.
+- Edição de cardápio: hoje via `src/data/menu.js`; escolas via `src/components/SchoolsSection.jsx`.
