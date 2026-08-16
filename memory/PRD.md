@@ -24,7 +24,7 @@ Site profissional, moderno, bonito e acolhedor para empresa de lanches escolares
 - Formulário de contato que abre o WhatsApp da Juliana (5517996124607) com dados preenchidos (verificado via teste automatizado).
 - Contatos reais: WhatsApp Juliana (17) 99612-4607, Breno (17) 99635-9706, Instagram @zavanellasanchescolar, e-mail zavanellasgourmet@gmail.com, nutricionista Larissa de Oliveira Romera (CRN 37.484).
 - Logo oficial aplicada no navbar e rodapé (/app/frontend/public/logo.png, recorte circular com fundo transparente a partir da imagem enviada pelo cliente).
-- Seção "Escolas que já atendemos" (id #escolas) com 9 escolas reais: Quintal Mágico, Luminus Delphos, Criarte, Integração, Vem Ser, Passinho Livre, Objetivo, Ressurreição, Anglo Start + selo "E muitas outras escolas!". Lista editável em src/components/SchoolsSection.jsx.
+- Seção "Escolas que já atendemos" (id #escolas) com 9 escolas reais: Quintal Mágico, Luminus Delphos, Criarte, Integração, Vem Ser, Passinho Livre, Objetivo, Ressurreição, Anglo Start + selo "E muitas outras escolas!" e botão "Quero a Zavanellas na minha escola" (leva ao formulário). Lista editável em `src/data/menu.js` (constante SCHOOLS, com instruções em PT-BR para acrescentar novas escolas).
 - Verificado: screenshots desktop + mobile de todas as seções; interações do cardápio; envio do formulário gera link wa.me correto.
 
 ## Pendente

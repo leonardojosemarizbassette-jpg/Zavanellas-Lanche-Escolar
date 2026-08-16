@@ -1,20 +1,6 @@
 import { Reveal } from "./Reveal";
 import { School, Sparkles } from "lucide-react";
-
-// ============================================================
-// ESCOLAS ATENDIDAS — edite esta lista para adicionar/remover.
-// ============================================================
-const SCHOOLS = [
-  "Colégio Quintal Mágico",
-  "Colégio Luminus Delphos",
-  "Colégio Criarte",
-  "Colégio Integração",
-  "Colégio Vem Ser",
-  "Colégio Passinho Livre",
-  "Colégio Objetivo",
-  "Colégio Ressurreição",
-  "Colégio Anglo Start",
-];
+import { SCHOOLS } from "../data/menu";
 
 const COLORS = ["#F43F5E", "#F97316", "#22C55E", "#14B8A6", "#A855F7", "#1E3A8A"];
 
@@ -58,7 +44,7 @@ export const SchoolsSection = () => (
         })}
       </div>
 
-      <Reveal delay={0.2} className="mt-10 flex justify-center">
+      <Reveal delay={0.2} className="mt-10 flex flex-col items-center gap-5">
         <div
           data-testid="schools-more-badge"
           className="inline-flex items-center gap-2.5 rounded-full bg-[#1E3A8A] text-white font-bold px-7 py-3.5 shadow-lg shadow-blue-900/20"
@@ -66,6 +52,14 @@ export const SchoolsSection = () => (
           <Sparkles size={19} strokeWidth={2.5} className="text-[#FBBF24]" />
           E muitas outras escolas!
         </div>
+        <a
+          data-testid="schools-contact-button"
+          href="#contato"
+          className="inline-flex items-center gap-2 rounded-full bg-[#14B8A6] hover:bg-[#0D9488] text-white font-bold px-7 py-3.5 transition-all duration-200 hover:scale-105 hover:-translate-y-0.5 shadow-lg shadow-teal-500/25"
+        >
+          <School size={19} strokeWidth={2.5} />
+          Quero a Zavanellas na minha escola
+        </a>
       </Reveal>
     </div>
   </section>

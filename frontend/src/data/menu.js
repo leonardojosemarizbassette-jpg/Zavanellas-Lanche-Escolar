@@ -106,6 +106,24 @@ export const MENU_ZERO = [
   ],
 ];
 
+// ============================================================
+// ESCOLAS ATENDIDAS
+// Para acrescentar uma nova escola, basta adicionar uma linha
+// na lista abaixo, entre aspas e com vírgula no final. Exemplo:
+//   "Colégio Nova Escola",
+// ============================================================
+export const SCHOOLS = [
+  "Colégio Quintal Mágico",
+  "Colégio Luminus Delphos",
+  "Colégio Criarte",
+  "Colégio Integração",
+  "Colégio Vem Ser",
+  "Colégio Passinho Livre",
+  "Colégio Objetivo",
+  "Colégio Ressurreição",
+  "Colégio Anglo Start",
+];
+
 export const MENU_NOTES = [
   "Os tipos de frutas e sucos poderão ser substituídos devido à sazonalidade, qualidade e escassez.",
   "Todos os nossos bolos são bolos simples: sem recheio e sem cobertura.",
