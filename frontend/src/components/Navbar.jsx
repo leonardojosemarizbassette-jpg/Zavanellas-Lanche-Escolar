@@ -19,10 +19,8 @@ export const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-[#F1E9DA]"
     >
       <div className="max-w-7xl mx-auto px-5 lg:px-8 h-[72px] flex items-center justify-between">
-        <a href="#inicio" data-testid="nav-logo" className="flex items-center gap-2">
-          <span className="w-10 h-10 rounded-2xl bg-[#F43F5E] flex items-center justify-center rotate-3 shadow-md">
-            <span className="font-display font-semibold text-white text-lg -rotate-3">Z</span>
-          </span>
+        <a href="#inicio" data-testid="nav-logo" className="flex items-center gap-2.5">
+          <img src="/logo.png" alt="Logo Zavanellas Kids" className="w-11 h-11 rounded-full shadow-md object-cover" />
           <span className="font-display font-semibold text-xl text-[#1E3A8A]">
             Zavanellas <span className="text-[#F43F5E]">Kids</span>
           </span>

@@ -13,10 +13,8 @@ export const Footer = () => (
     <div className="max-w-7xl mx-auto px-5 lg:px-8">
       <div className="grid md:grid-cols-3 gap-10">
         <div>
-          <div className="flex items-center gap-2 mb-4">
-            <span className="w-10 h-10 rounded-2xl bg-[#F43F5E] flex items-center justify-center rotate-3">
-              <span className="font-display font-semibold text-white text-lg -rotate-3">Z</span>
-            </span>
+          <div className="flex items-center gap-3 mb-4">
+            <img src="/logo.png" alt="Logo Zavanellas Kids" className="w-12 h-12 rounded-full shadow-lg object-cover" />
             <span className="font-display font-semibold text-xl">
               Zavanellas <span className="text-[#FBBF24]">Kids</span>
             </span>
