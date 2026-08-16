@@ -1,0 +1,143 @@
+{
+  "theme": "light",
+  "typography": {
+    "headings": {
+      "family": "'Fredoka', sans-serif",
+      "weights": ["500", "600", "700"],
+      "description": "Playful, rounded, and friendly font perfect for a kids' brand without being overly childish."
+    },
+    "body": {
+      "family": "'Nunito', sans-serif",
+      "weights": ["400", "500", "600"],
+      "description": "Clean, highly legible, and soft edges complementing the headings."
+    },
+    "rules": {
+      "h1": "text-4xl md:text-5xl lg:text-6xl tracking-tight text-navy-900",
+      "h2": "text-3xl md:text-4xl font-bold tracking-tight text-navy-900",
+      "h3": "text-xl md:text-2xl font-semibold",
+      "body": "text-base md:text-lg text-slate-700 leading-relaxed"
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#FFFDF7",
+      "secondary": "#F3F4F6"
+    },
+    "text": {
+      "primary": "#1E3A8A",
+      "secondary": "#475569",
+      "muted": "#64748B"
+    },
+    "brand": {
+      "navy": "#1E3A8A",
+      "green": "#22C55E",
+      "pink": "#F43F5E",
+      "yellow": "#FBBF24",
+      "teal": "#14B8A6",
+      "purple": "#A855F7",
+      "orange": "#F97316"
+    },
+    "menu_weeks": {
+      "week_1": "#F43F5E",
+      "week_2": "#F97316",
+      "week_3": "#22C55E",
+      "week_4": "#14B8A6",
+      "week_5": "#A855F7"
+    }
+  },
+  "visual_enhancers": {
+    "border_radius": "Use rounded-2xl to rounded-3xl for cards and buttons. Avoid sharp edges to maintain a soft, kid-friendly look.",
+    "shadows": "Soft, diffused shadows. Example: shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+    "spacing": "Extremely generous padding. Use py-24 or py-32 for sections to let the content breathe.",
+    "textures": "Subtle noise overlay or organic blob shapes in the background using brand colors at 5-10% opacity."
+  },
+  "components": {
+    "navbar": "Glassmorphism sticky header (backdrop-blur-xl bg-white/80) with rounded pill-shaped CTA button.",
+    "buttons": "Pill-shaped (rounded-full), vibrant colors. Primary: Brand Green or Pink with hover transform (scale-105).",
+    "cards": "Bento-style layout for 'Como Funciona'. Cards must have a white background, soft shadow, and a colored top border or icon background.",
+    "tabs": "Customized Shadcn Tabs for the Menu section. Tab triggers should be pill-shaped. Active tab gets a vibrant background depending on the week color.",
+    "form": "Rounded inputs (rounded-xl), clear labels, generous padding (p-4).",
+    "icons": "Use 'lucide-react' with a stroke-width of 2.5 for a chunkier, friendlier look."
+  },
+  "grids": {
+    "how_it_works": "grid-cols-1 md:grid-cols-3 gap-8",
+    "menu_table": "grid-cols-1 md:grid-cols-5 gap-4 (Monday to Friday columns)",
+    "general": "Use CSS Grid for bento layouts. Make sure items are direct children."
+  },
+  "layouts": {
+    "hero": "Two-column on desktop (text on left, image on right), stacked on mobile. Title must be massive and playful.",
+    "menu_section": "Centered header, followed by Tab list (Normal / Zero Açúcar), followed by Week Selector (1-5), followed by the 5-column daily layout.",
+    "contact": "Two-column: Left side with contact info and cute image, Right side with the WhatsApp form."
+  },
+  "motion": {
+    "scroll": "Smooth scrolling mandatory.",
+    "entrance": "Framer Motion staggered fade-up for bento cards and list items.",
+    "hover": "Buttons and cards should gently lift (-translate-y-1) on hover."
+  },
+  "accessibility": {
+    "contrast": "Ensure text over colored buttons is white or very dark for >= 4.5:1 contrast.",
+    "focus": "All interactive elements must have focus-visible:ring-2 focus-visible:ring-brand-pink",
+    "data_testid": "Mandatory on all CTAs, tabs, and form inputs."
+  },
+  "media": {
+    "strategy": "Images should have soft rounded corners (rounded-3xl). Use object-cover."
+  },
+  "image_urls": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1606787620114-e44702d1b7bb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHw0fHxoYXBweSUyMGNoaWxkJTIwZWF0aW5nJTIwbHVuY2h8ZW58MHx8fHwxNzg2OTA2ODM4fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Happy child eating, great for Hero section",
+        "category": "hero"
+      }
+    ],
+    "features": [
+      {
+        "url": "https://images.pexels.com/photos/5668181/pexels-photo-5668181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Fresh orange juice for 'Suco Natural' card",
+        "category": "how_it_works_juice"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1576221506205-a1b45deb55a9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHw0fHxjb2xvcmZ1bCUyMGZyZXNoJTIwZnJ1aXRzJTIwYmFza2V0fGVufDB8fHx8MTc4NjkwNjgzOHww&ixlib=rb-4.1.0&q=85",
+        "description": "Colorful fruits for 'Porção de Frutas' card",
+        "category": "how_it_works_fruits"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1714492919834-d161b1263289?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwzfHxoZWFsdGh5JTIwa2lkcyUyMGx1bmNoJTIwYm94fGVufDB8fHx8MTc4NjkwNjgzOHww&ixlib=rb-4.1.0&q=85",
+        "description": "Healthy lunch box for 'Lanche do Dia' card",
+        "category": "how_it_works_lunch"
+      }
+    ],
+    "parents": [
+      {
+        "url": "https://images.unsplash.com/flagged/photo-1570088782323-e49798c279f8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwyfHxoYXBweSUyMGNoaWxkJTIwZWF0aW5nJTIwbHVuY2h8ZW58MHx8fHwxNzg2OTA2ODM4fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Girl eating, to be used in 'Para os Pais' or Delivery section",
+        "category": "parents_section"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Install Google Fonts 'Fredoka' and 'Nunito' in index.html.",
+    "Use standard JS, Tailwind CSS, and Shadcn components.",
+    "Form submission must prevent default and open WhatsApp link with pre-filled text based on form data: 'https://wa.me/5517996124607?text=Olá, meu nome é [Nome], responsável por [Criança] da escola [Escola]...'",
+    "The weekly menu must be interactive. Use a state variable for 'selectedWeek' (1 to 5) and 'menuType' (Normal / Zero). Change the accent color of the active tab based on the selected week (Week 1: Pink, Week 2: Orange, Week 3: Green, etc.).",
+    "Section 'Entrega nas Escolas' should have a visually distinct background (e.g., light yellow or teal) to stand out.",
+    "Add floating emoji/fruit illustrations or subtle organic blob SVGs in the background to make it playful.",
+    "Ensure the hero section uses a soft gradient or off-white background (#FFFDF7).",
+    "DO NOT use a fully transparent header; use backdrop-blur with white/80."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition (e.g., transition: all). Always add transitions for specific properties.",
+    "You MUST NOT center align the app container, i.e., do not add `.App { text-align: center; }`.",
+    "Always use modern button styles like pill-shaped with interaction animations.",
+    "NEVER use AI assistant Emoji characters like 🤖🧠💭 for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, entrance animations.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Use `sonner` for toasts. Sonner component is located in `/app/src/components/ui/sonner.tsx`.",
+    "All interactive and key informational elements MUST include a `data-testid` attribute."
+  ]
+}
