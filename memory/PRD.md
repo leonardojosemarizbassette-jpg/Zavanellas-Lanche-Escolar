@@ -26,9 +26,10 @@ Site profissional, moderno, bonito e acolhedor para empresa de lanches escolares
 - Logo oficial aplicada no navbar e rodapé (/app/frontend/public/logo.png, recorte circular com fundo transparente a partir da imagem enviada pelo cliente).
 - Seção "Escolas que já atendemos" (id #escolas) com 9 escolas reais: Quintal Mágico, Luminus Delphos, Criarte, Integração, Vem Ser, Passinho Livre, Objetivo, Ressurreição, Anglo Start + selo "E muitas outras escolas!" e botão "Quero a Zavanellas na minha escola" (leva ao formulário). Lista editável em `src/data/menu.js` (constante SCHOOLS, com instruções em PT-BR para acrescentar novas escolas).
 - Verificado: screenshots desktop + mobile de todas as seções; interações do cardápio; envio do formulário gera link wa.me correto.
+- Fotos da própria marca aplicadas (recortadas dos cartazes enviados): Hero usa a foto da menina com o kit; "Como Funciona" usa as imagens de suco, frutas e sanduíche do flyer "Somos a Zavanellas" (arquivos em /app/frontend/public/fotos/).
 
 ## Pendente
-- Fotos reais dos kits/sucos/lanches: aguardando o cliente enviar as fotos para substituir as de banco de imagens.
+- Seção "Para os Pais" ainda usa 1 foto de banco de imagens; substituir quando o cliente enviar mais fotos reais.
 
 ## Backlog priorizado
 - P0: nenhum pendente (site funcional).

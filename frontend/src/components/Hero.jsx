@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { Apple, CupSoda, Croissant, ShieldCheck, Heart, ArrowRight, MessageCircle } from "lucide-react";
 
-const HERO_IMG =
-  "https://images.unsplash.com/photo-1606787620114-e44702d1b7bb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHw0fHxoYXBweSUyMGNoaWxkJTIwZWF0aW5nJTIwbHVuY2h8ZW58MHx8fHwxNzg2OTA2ODM4fDA&ixlib=rb-4.1.0&q=85";
+const HERO_IMG = "/fotos/menina-kit.jpg";
 
 const chips = [
   { icon: CupSoda, label: "Suco natural", color: "#F97316", bg: "#FFF1E4" },

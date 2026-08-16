@@ -8,8 +8,8 @@ const ITEMS = [
     text: "Suco natural preparado para acompanhar o lanche. Não utilizamos polpa nem suco de caixinha.",
     color: "#F97316",
     bg: "#FFF1E4",
-    img: "https://images.pexels.com/photos/5668181/pexels-photo-5668181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    alt: "Copo de suco natural de laranja",
+    img: "/fotos/suco.jpg",
+    alt: "Garrafinha de suco natural de laranja",
   },
   {
     icon: Apple,
@@ -17,8 +17,8 @@ const ITEMS = [
     text: "Uma porção de frutas para complementar a alimentação de forma saudável e saborosa.",
     color: "#F43F5E",
     bg: "#FFE9ED",
-    img: "https://images.unsplash.com/photo-1576221506205-a1b45deb55a9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHw0fHxjb2xvcmZ1bCUyMGZyZXNoJTIwZnJ1aXRzJTIwYmFza2V0fGVufDB8fHx8MTc4NjkwNjgzOHww&ixlib=rb-4.1.0&q=85",
-    alt: "Cesta com frutas frescas e coloridas",
+    img: "/fotos/frutas.jpg",
+    alt: "Tigela com frutas frescas e coloridas",
   },
   {
     icon: Croissant,
@@ -26,8 +26,8 @@ const ITEMS = [
     text: "Um lanche variado, escolhido de acordo com nosso cardápio, sempre buscando equilíbrio e qualidade.",
     color: "#A855F7",
     bg: "#F4EAFE",
-    img: "https://images.unsplash.com/photo-1714492919834-d161b1263289?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwzfHxoZWFsdGh5JTIwa2lkcyUyMGx1bmNoJTIwYm94fGVufDB8fHx8MTc4NjkwNjgzOHww&ixlib=rb-4.1.0&q=85",
-    alt: "Lancheira saudável para crianças",
+    img: "/fotos/lanche.jpg",
+    alt: "Sanduíche saudável do lanche do dia",
   },
 ];
 
