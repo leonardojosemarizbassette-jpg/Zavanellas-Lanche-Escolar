@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { HowItWorks } from "@/components/HowItWorks";
 import { HealthySection } from "@/components/HealthySection";
+import { GallerySection } from "@/components/GallerySection";
 import { MenuSection } from "@/components/MenuSection";
 import { ZeroMenuSection } from "@/components/ZeroMenuSection";
 import { ForParents } from "@/components/ForParents";
@@ -20,6 +21,7 @@ function App() {
         <Hero />
         <HowItWorks />
         <HealthySection />
+        <GallerySection />
         <MenuSection />
         <ZeroMenuSection />
         <ForParents />

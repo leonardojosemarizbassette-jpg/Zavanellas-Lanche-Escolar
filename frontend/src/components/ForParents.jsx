@@ -9,8 +9,7 @@ const BENEFITS = [
   { icon: Coffee, text: "Você não precisa se preocupar em preparar o lanche todos os dias", color: "#22C55E" },
 ];
 
-const IMG =
-  "https://images.unsplash.com/flagged/photo-1570088782323-e49798c279f8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwyfHxoYXBweSUyMGNoaWxkJTIwZWF0aW5nJTIwbHVuY2h8ZW58MHx8fHwxNzg2OTA2ODM4fDA&ixlib=rb-4.1.0&q=85";
+const IMG = "/fotos/kit-3.jpg";
 
 export const ForParents = () => (
   <section id="para-os-pais" data-testid="parents-section" className="py-24 lg:py-32 bg-white relative overflow-hidden">
@@ -22,7 +21,7 @@ export const ForParents = () => (
           <img
             data-testid="parents-image"
             src={IMG}
-            alt="Criança sorrindo durante o lanche na escola"
+            alt="Kit Zavanellas Kids com bolo, suco natural e frutas"
             className="relative rounded-[2.5rem] object-cover w-full h-[420px] lg:h-[500px] shadow-2xl shadow-slate-900/10"
           />
           <div className="absolute top-6 -left-2 sm:left-6 bg-white rounded-3xl shadow-xl shadow-slate-900/10 px-5 py-3.5 flex items-center gap-3 rotate-[-2deg]">
