@@ -85,7 +85,7 @@ export const Hero = () => (
           ))}
           <div className="flex items-center gap-2 rounded-full px-4 py-2 bg-[#E7F8F0]">
             <ShieldCheck size={18} strokeWidth={2.5} className="text-[#14B8A6]" />
-            <span className="text-sm font-bold text-[#14B8A6]">Aprovado por nutricionista</span>
+            <span className="text-sm font-bold text-[#14B8A6]">Cardápio variado e equilibrado</span>
           </div>
         </motion.div>
       </div>

@@ -22,9 +22,6 @@ export const Footer = () => (
           <p className="text-blue-200 font-semibold leading-relaxed max-w-xs">
             Alimentação saudável, equilibrada e cheia de carinho para o dia a dia escolar do seu filho.
           </p>
-          <p className="mt-4 text-sm text-blue-300 font-semibold">
-            Nutricionista responsável: {CONTACT.nutritionist} | {CONTACT.nutritionistCrn}
-          </p>
         </div>
 
         <div>

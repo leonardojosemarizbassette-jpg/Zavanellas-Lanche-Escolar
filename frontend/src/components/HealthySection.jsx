@@ -1,6 +1,5 @@
 import { Reveal } from "./Reveal";
 import { CheckCircle2, CupSoda, Apple, Croissant, CalendarCheck, School, GraduationCap } from "lucide-react";
-import { CONTACT } from "../data/menu";
 
 const CHECKS = [
   { icon: CupSoda, label: "Suco natural", color: "#F97316" },
@@ -54,8 +53,8 @@ export const HealthySection = () => (
                 <GraduationCap size={28} strokeWidth={2.5} className="text-[#14B8A6]" />
               </div>
               <div>
-                <h3 className="font-display font-semibold text-xl text-[#1E3A8A]">Acompanhamento profissional</h3>
-                <p className="text-sm text-slate-500 font-semibold">Cardápios aprovados por nutricionista</p>
+                <h3 className="font-display font-semibold text-xl text-[#1E3A8A]">Qualidade em cada detalhe</h3>
+                <p className="text-sm text-slate-500 font-semibold">Cardápios variados e equilibrados</p>
               </div>
             </div>
             <ul className="space-y-4">
@@ -71,12 +70,6 @@ export const HealthySection = () => (
                 </li>
               ))}
             </ul>
-            <div className="mt-7 rounded-2xl bg-[#F0FDF4] border border-[#BBF7D0] px-5 py-4">
-              <p className="text-sm font-bold text-[#166534]">Nutricionista responsável</p>
-              <p data-testid="nutritionist-info" className="text-sm text-[#166534] mt-0.5">
-                {CONTACT.nutritionist} | {CONTACT.nutritionistCrn}
-              </p>
-            </div>
           </div>
         </div>
       </Reveal>

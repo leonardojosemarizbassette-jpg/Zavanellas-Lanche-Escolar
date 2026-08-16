@@ -22,7 +22,8 @@ Site profissional, moderno, bonito e acolhedor para empresa de lanches escolares
 - Landing page completa em PT-BR com todas as seções pedidas, responsiva e com animações de scroll.
 - Cardápio real transcrito dos materiais enviados (5 semanas, Tradicional + Zero Açúcar) com abas e seletor de semana colorido por semana.
 - Formulário de contato que abre o WhatsApp da Juliana (5517996124607) com dados preenchidos (verificado via teste automatizado).
-- Contatos reais: WhatsApp Juliana (17) 99612-4607, Breno (17) 99635-9706, Instagram @zavanellasanchescolar, e-mail zavanellasgourmet@gmail.com, nutricionista Larissa de Oliveira Romera (CRN 37.484).
+- Contatos reais: WhatsApp Juliana (17) 99612-4607, Breno (17) 99635-9706, Instagram @zavanellasanchescolar, e-mail zavanellasgourmet@gmail.com.
+- Pedido do cliente (Ago/2026): removidas TODAS as menções à nutricionista (quadro "Nutricionista responsável", selo "Aprovado por nutricionista" do Hero, rodapé e frases relacionadas).
 - Logo oficial aplicada no navbar e rodapé (/app/frontend/public/logo.png, recorte circular com fundo transparente a partir da imagem enviada pelo cliente).
 - Seção "Onde atendemos" (id #escolas): sem lista nominal — informa que atendem todas as escolas particulares de Rio Preto, com CTA para o formulário. (Pedido do cliente: remover a lista de escolas.)
 - Verificado: screenshots desktop + mobile de todas as seções; interações do cardápio; envio do formulário gera link wa.me correto.

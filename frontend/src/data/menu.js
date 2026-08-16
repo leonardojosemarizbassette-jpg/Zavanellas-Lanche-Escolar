@@ -11,8 +11,6 @@ export const CONTACT = {
   instagram: "@zavanellasanchescolar",
   instagramUrl: "https://instagram.com/zavanellasanchescolar",
   email: "zavanellasgourmet@gmail.com",
-  nutritionist: "Larissa de Oliveira Romera",
-  nutritionistCrn: "CRN: 37.484",
 };
 
 export const DAYS = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta"];

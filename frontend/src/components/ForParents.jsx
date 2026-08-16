@@ -5,7 +5,7 @@ const BENEFITS = [
   { icon: School, text: "Os lanches são entregues diretamente na escola", color: "#14B8A6" },
   { icon: CalendarDays, text: "O serviço funciona de segunda a sexta-feira", color: "#F97316" },
   { icon: Package, text: "A criança recebe os 3 itens diariamente", color: "#A855F7" },
-  { icon: Shuffle, text: "O cardápio é variado e planejado por nutricionista", color: "#F43F5E" },
+  { icon: Shuffle, text: "O cardápio é variado e equilibrado", color: "#F43F5E" },
   { icon: Coffee, text: "Você não precisa se preocupar em preparar o lanche todos os dias", color: "#22C55E" },
 ];
 
